@@ -37,11 +37,16 @@ A Hub has:
 
 The Web API must provide a set of `endpoints` to fulfill the following needs:
 
+## Lessons
+
 - add a new Lesson.
 - view a list of existing Lessons.
 - view the details of a single Lesson
 - update the information of an existing Lesson.
 - remove a Lesson.
+
+## Hubs
+
 - add a new Hub.
 - view a list of existing Hubs.
 - view the details of a single Hub
@@ -62,3 +67,15 @@ Here is a table with the `endpoint` descriptions:
 | View Hub details     | /api/hubs/{id}    | GET    | a Hub            |
 | Update Hub           | /api/hubs/{id}    | PATCH  | updated Hub      |
 | Remove a Hub         | /api/hubs/{id}    | DELETE | deleted Hub      |
+
+## Commands
+
+1.`npm init -y` - Build a package.json 2.`npm i express` - install express
+
+2. `npm i express`
+3. `npm i nodemon -D` --> nodemon restarts the server automatically on changes.
+
+C - POST
+R - GET
+U - PUT/PATCH
+D - DELETE
